@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 # Replace with the path to your chromedriver executable
 driver = webdriver.Chrome(r'C:\Users\HP 450 G7\Documents\Selenium\chromedriver-win64\chromedriver-win64')
 driver = webdriver.Chrome(r'C:\Users\HP 450 G7\Documents\Selenium\chromedriver-win64\chromedriver.exe')
-driver = webdriver.Chrome(r'C:\Users\HP 450 G7\Documents\Selenium\chromedriver-win64\chromedriver.exe')
+
 # Open WhatsApp Web
 driver.get('https://web.whatsapp.com')
 
